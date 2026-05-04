@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedido - Pizzería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <h1>🍕 Realiza tu pedido</h1>
+
+    <form>
+
+       
+        <h2>Datos personales</h2>
+
+        <input type="text" placeholder="Nombres" required>
+        <input type="text" placeholder="Apellidos" required>
+        <input type="tel" placeholder="Número de teléfono" required>
+        <input type="text" placeholder="Dirección" required>
+
+      
+        <h2>Tamaño de la pizza</h2>
+        <div class="opciones">
+    <label>Personal <input type="radio" name="tamano"></label>
+    <label>Mediana <input type="radio" name="tamano"></label>
+    <label>Familiar <input type="radio" name="tamano"></label>
+</div>
+
+        <h2>Selecciona tus pizzas</h2>
+        <div class="opciones">
+             <label>Pepperoni <input type="checkbox"></label>
+             <label> 4 Quesos <input type="checkbox"></label>
+              <label>Mexicana <input type="checkbox"></label>
+               <label>Vegetariana <input type="checkbox"></label>
+                <label>Hawaiana <input type="checkbox"></label>
+                 <label>Ranchera <input type="checkbox"></label>
+                  <label>BBQ <input type="checkbox"></label>
+                   <label>Pollo champiñones <input type="checkbox"></label>
+        </div>
+
+        
+        <h2>Bebidas</h2>
+        <div class="opciones">
+            <label><input type="checkbox"> Coca-Cola</label>
+            <label><input type="checkbox"> Pepsi</label>
+            <label><input type="checkbox"> Sprite</label>
+            <label><input type="checkbox"> Fanta</label>
+            <label><input type="checkbox"> Jugo Natural</label>
+            <label><input type="checkbox"> Agua</label>
+        </div>
+
+        
+        <h2>Comentarios</h2>
+        <textarea placeholder="Ej: sin cebolla, extra queso..."></textarea>
+
+        
+        <br><br>
+        <button type="submit">Enviar Pedido</button>
+
+    </form>
+
+    <br>
+    <a href="index.html" class="volver">← Volver al inicio</a>
+
+</div>
+
+</body>
+</html>
